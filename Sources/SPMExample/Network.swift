@@ -6,10 +6,11 @@
 //
 
 import Foundation
-//import Alamofire
+import Alamofire
 
 class NetworkService {
     func network() {
-//        print(AFError.explicitlyCancelled.url?.baseURL)
+        print("SPM Complete")
+        print(HTTPMethod.connect.rawValue)
     }
 }
