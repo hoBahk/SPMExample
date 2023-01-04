@@ -13,4 +13,7 @@ public class NetworkService {
         print("SPM Complete")
         print(HTTPMethod.connect.rawValue)
     }
+    
+    public init() {
+    }
 }
