@@ -8,8 +8,8 @@
 import Foundation
 import Alamofire
 
-class NetworkService {
-    func network() {
+public class NetworkService {
+    public func network() {
         print("SPM Complete")
         print(HTTPMethod.connect.rawValue)
     }
